@@ -6,8 +6,8 @@ const Homepage = () => {
         <div className='flex container'>
 
             <div className='flex-1 lg:flex-auto lg:w-7/12 flex flex-col justify-center h-[80vh] items-center'>
-                <h1 className=' font-sans text-xl font-bold md:text-5xl p-6 m-6'>
-                    <span className='text-blue-600' >Hello From My</span> <span className='text-pink-600'>Project AnaLysis</span>
+                <h1 className=' font-sans text-xl font-bold md:text-5xl p-5'>
+                    <span className='text-blue-600' >Hello From My</span><br /> <span className='text-pink-600 mt-3 mr-4'>Book Reviews Forum</span>
                 </h1>
                 <p className='font-sans text-center font-medium text-cyan-600'>
                     It’s an exciting time to be a book reviewer. Once confined to print newspapers and journals, reviews now dot many corridors of the Internet — forever helping others discover their next great read.Like all works of art, no two book reviews will be identical. But fear not: there are a few guidelines for any aspiring book reviewer to follow.
