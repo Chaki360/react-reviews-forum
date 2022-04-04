@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Charles Wootton",
+        "text": "I've read a lot of books on changing behavior and building habits and James Clear's Atomic Habits is my new favorite. This book is different from others in the way it covers an enormous amount of ground in the larger area of self-improvement while seamlessly tying all these ideas back into the central theme of habits.",
+        "rating": 4.66
+    },
+    {
+        "id": 2,
+        "name": "Cardoso Barbosa",
+        "text": "I was aware of many concepts of this book through the web site of the author jamesclear.com In fact that the place from where I came to know James first time. The article on habits where he mentions process is important than goals was my starting point. I continued reading his updates through the consistent newsletter he publishes through his site.",
+        "rating": 4.3
+    },
+    {
+        "id": 3,
+        "name": "Luis Rodrigues",
+        "text": "This book had clearly been written in a language other than English and then translated back into English using some form of auto translate. Didn’t make sense. Eg my dear friend became my expensive buddy and someone who was present at an event became ‘he was gift at the event’. The combination of 18C language and the laughable translation made it impossible to read. Since read a hard copy of the actual book and enjoyed it.",
+        "rating": 4.5
+    },
+    {
+        "id": 4,
+        "name": "Fer Zeinstra",
+        "text": "I haven't read many books and this one wasn't the type that I would have preferred. But having read too few books since I was a child, I resolved towards the end of 2017 to read at least 12 books a year thereafter and ensure that at least one of them were a classic. This was the second classic.",
+        "rating": 4.8
+    },
+    {
+        "id": 5,
+        "name": "Riley Wijlens",
+        "text": "Love it, love it, love it! Excellent book. It will keep you glued till the very end. You'll be left wanting for more by the time you finish this. Language can be a bit tricky, nothing a dictionary app cannot fix. The acrid language, piercing detail and the vivid picturization make this a worthwhile read. I'll probably read it again and again many times just for the pure joy of reading - there is something of nice and pleasant flow of her language.",
+        "rating": 4.9
+    },
+    {
+        "id": 6,
+        "name": "Van Embden",
+        "text": "Margaret Atwood does it again! Getting the mind and mysteries, like that of a young teenager and young woman who is just dipping her toes into the world of life. Sending us down the paths of, “what if,” with every sentence, that leads you to the most unexpected result in the end. I highly recommend this intriguing book as another one of Margaret’s intriguing short stories and writings!",
+        "rating": 4.75
+    },
+    {
+        "id": 7,
+        "name": "Hayat Kooiker",
+        "text": "This book is a game changer. It makes you think in a way you never have.. Must read for people who think they are depressed, 'something is wrong with me',, 'why me' type of questions.. Trust me there is nothing wrong with you.. an eye opener for me truly. Just order it already !!!",
+        "rating": 4.85
+    },
+    {
+        "id": 8,
+        "name": "Pravin Poojary",
+        "text": "There's nothing wrong with buying this book if you think it will help but I recommend reading the first couple of chapters and then reading chapter summaries to determine if you already know the content. Then you can dive in on anything that is new to you. I spent about an hour going cover to cover. See if you can get it used or at the Library or something. It's not worth spending more than a few bucks on.",
+        "rating": 4.77
+    },
+    {
+        "id": 9,
+        "name": "I bought this book as I listened to an interview with James Clear on a podcast and found him interesting. His book, however was disappointing. It follows the typical self-help formula of common sense and old ideas combined with overly simplistic charts and celebrity anecdotes to remind you of what you already know.Matt Evans",
+        "text": "",
+        "rating": 4.8
+    }
+]
