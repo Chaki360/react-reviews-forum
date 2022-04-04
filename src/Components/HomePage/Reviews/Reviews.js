@@ -1,5 +1,6 @@
 import { data } from 'autoprefixer';
 import React, { useEffect, useState } from 'react';
+import ReviewsData from '../ReviewsData/ReviewsData';
 
 const Reviews = () => {
     const [reviews, setReviews] = useState([])
@@ -12,9 +13,14 @@ const Reviews = () => {
 
     }, [])
     return (
-        <div>
-            {reviews.map(review => <h1 className='font-bold text-2xl'>{review.name}</h1>
-            )}
+        <div ><h1 className='font-sans font-bold text-center text-5xl mb-4'> Book Reviews Forum</h1>
+            <h1 className='font-sans font-bold text-center text-3xl mb-4'>Total Reviews:{reviews.length}</h1>
+            <div className='px-3 mx-auto grid grid-cols-3 gap-2 m-2'>
+
+                {reviews.map(review =>
+                    <ReviewsData key={review.id} review={review}></ReviewsData>
+                )}
+            </div>
         </div>
     );
 };
