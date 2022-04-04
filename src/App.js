@@ -8,6 +8,7 @@ import Dashboard from './Components/HomePage/Dashboard/Dashboard';
 import Blogs from './Components/HomePage/Blogs/Blogs';
 import About from './Components/HomePage/About-Us/About';
 import NotFound from './NotFound/NotFound';
+import Footer from './Footer/Footer';
 
 const App = () => {
   return (
@@ -26,7 +27,7 @@ const App = () => {
 
 
 
-
+      <Footer></Footer>
 
 
     </div>

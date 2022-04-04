@@ -13,8 +13,11 @@ const NotFound = () => {
             <p className='mb-5 text-bold text-gray-800 text-xl'>
                 You might have the wrong address, or the page may have moved.
             </p>
+
+
         </div>
     );
 };
 
 export default NotFound;
+
