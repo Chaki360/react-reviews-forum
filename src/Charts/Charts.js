@@ -1,9 +1,7 @@
 import React from 'react';
-import { BarChart, CartesianGrid, XAxis, YAxis, Legend, Tooltip, Bar } from 'recharts';
-import Charts from '../../../Charts/Charts';
+import { Line, LineChart, XAxis, YAxis, } from 'recharts';
 
-
-const Dashboard = () => {
+const Charts = () => {
 
     const data = [
         {
@@ -44,24 +42,17 @@ const Dashboard = () => {
         }
     ]
     return (
+        <LineChart width={500} height={300} data={data} >
+            <Line type="monotone" dataKey="revenue" stroke="#8884d8" strokeWidth={2} />
+            <Line type="monotone" dataKey="investment" stroke="#8884d8" strokeWidth={2} />
+            <Line type="monotone" dataKey="sell" stroke="#8884d8" strokeWidth={2} />
+            <XAxis />
+            <YAxis />
 
-        <div className='flex grid-cols-2 h-[70vh] gap-5'>
-            <BarChart width={500} height={300} data={data}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="month" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="investment" fill="MediumSpringGreen" />
-                <Bar dataKey="revenue" fill="MediumPurple" />
-                <Bar dataKey="sell" fill="#4B0082" />
+        </LineChart>
 
-            </BarChart>
-
-            <Charts></Charts>
-        </div>
 
     );
-
 };
-export default Dashboard;
+
+export default Charts;

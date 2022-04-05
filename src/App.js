@@ -9,6 +9,7 @@ import Blogs from './Components/HomePage/Blogs/Blogs';
 import About from './Components/HomePage/About-Us/About';
 import NotFound from './NotFound/NotFound';
 import Footer from './Footer/Footer';
+import Charts from './Charts/Charts';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/' element={<Homepage></Homepage>} />
         <Route path='/reviews' element={<Reviews></Reviews>} />
         <Route path='/dashboard' element={<Dashboard></Dashboard>} />
+        <Route path='/dashboard' element={<Charts></Charts>} />
         <Route path='/blogs' element={<Blogs></Blogs>} />
         <Route path='/about' element={<About></About>} />
         <Route path='*' element={<NotFound />} />
