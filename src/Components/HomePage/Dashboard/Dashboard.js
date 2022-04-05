@@ -3,6 +3,7 @@ import { BarChart, CartesianGrid, XAxis, YAxis, Legend, Tooltip, Bar } from 'rec
 import Charts from '../../../Charts/Charts';
 
 
+
 const Dashboard = () => {
 
     const data = [
@@ -44,23 +45,25 @@ const Dashboard = () => {
         }
     ]
     return (
+        <section className='flex container'>
+            <div className='flex-1 lg:flex-auto lg:w-6/12 flex flex-col justify-center h-[70vh] items-center'>
+                <BarChart width={500} height={300} data={data}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="investment" fill="MediumSpringGreen" />
+                    <Bar dataKey="revenue" fill="MediumPurple" />
+                    <Bar dataKey="sell" fill="#4B0082" />
 
-        <div className='flex grid-cols-2 h-[70vh] gap-5'>
-            <BarChart width={500} height={300} data={data}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="month" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="investment" fill="MediumSpringGreen" />
-                <Bar dataKey="revenue" fill="MediumPurple" />
-                <Bar dataKey="sell" fill="#4B0082" />
+                </BarChart>
+            </div>
+            <div className='flex-1 lg:flex-auto lg:w-6/12 flex flex-col justify-center h-[70vh] items-center'>
+                <Charts></Charts>
+            </div>
 
-            </BarChart>
-
-            <Charts></Charts>
-        </div>
-
+        </section>
     );
 
 };

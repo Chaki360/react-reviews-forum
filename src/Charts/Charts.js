@@ -1,5 +1,5 @@
 import React from 'react';
-import { Line, LineChart, XAxis, YAxis, } from 'recharts';
+import { Line, LineChart, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 const Charts = () => {
 
@@ -43,11 +43,15 @@ const Charts = () => {
     ]
     return (
         <LineChart width={500} height={300} data={data} >
-            <Line type="monotone" dataKey="revenue" stroke="#8884d8" strokeWidth={2} />
-            <Line type="monotone" dataKey="investment" stroke="#8884d8" strokeWidth={2} />
-            <Line type="monotone" dataKey="sell" stroke="#8884d8" strokeWidth={2} />
-            <XAxis />
-            <YAxis />
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="month" />
+            <YAxis yAxisId="left" />
+            <YAxis yAxisId="right" orientation="right" />
+            <Tooltip />
+            <Legend />
+            <Line yAxisId="left" type="monotone" dataKey="investment" stroke="Maroon" activeDot={{ r: 8 }} />
+            <Line yAxisId="right" type="monotone" dataKey="sell" stroke="OrangeRed" />
+            <Line yAxisId="right" type="monotone" dataKey="revenue" stroke="MidnightBlue" />
 
         </LineChart>
 
