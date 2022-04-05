@@ -39,7 +39,7 @@ const Homepage = () => {
                 </Link>
             </div>
 
-            <div className='flex lg:flex-col lg:w-3/12 '> <img className=' mt-4 w-3/4' src='https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'></img></div>
+            <div className='flex lg:flex-col lg:w-3/12 '> <img className=' mt-4 ' src='https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'></img></div>
 
         </div>
     )
